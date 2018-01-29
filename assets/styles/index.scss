@@ -1,2 +1,8 @@
-$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
-@import '~bootstrap-sass/assets/stylesheets/bootstrap';
+// $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+// @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+// Bootstrap core CSS
+@import 'vendor/bootstrap/css/bootstrap.min';
+// Custom styles fsor this template
+@import 'assets/css/agency.min';

@@ -97,5 +97,16 @@ module.exports = {
     failOnError: true,
     watch: false,
     keepalive: false
+  },
+
+  watch: {
+    css: {
+      files: ['src/css/*.css'],
+      tasks: ['sass:dev']
+    },
+    js: {
+      files: ['src/js/*.js'],
+      tasks: ['uglify:dev']
+    }
   }
 }

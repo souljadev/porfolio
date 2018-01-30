@@ -632,8 +632,13 @@ section#contact :-ms-input-placeholder {
 
 section#about {
   clear: both;
-  margin-top: 410px;
+  margin-top: 400px;
   margin-bottom: 100px;
+  padding-top: 50px;
+}
+
+.profpic img {
+  width: 225px;
 }
 
 .skilli {

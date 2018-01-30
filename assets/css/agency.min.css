@@ -630,6 +630,19 @@ section#contact :-ms-input-placeholder {
   font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
+section#about {
+  clear: both;
+  margin-top: 410px;
+  margin-bottom: 100px;
+}
+
+.skilli {
+/* vertical-align: middle;
+display: block;
+margin-left: auto;
+margin-right: auto; */
+}
+
 footer {
   padding: 25px 0;
   text-align: center

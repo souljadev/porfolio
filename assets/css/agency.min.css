@@ -637,16 +637,31 @@ section#about {
   padding-top: 50px;
 }
 
+.biosum {
+  width: 90%;
+  z-index: 100;
+  text-align: center;
+  font-style: italic;
+  color: gray;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 8px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
 .profpic img {
-  width: 225px;
+  width: 200px;
+}
+
+.skillicon {
+  margin: 0 auto;
 }
 
 .skilli {
-/* vertical-align: middle;
-display: block;
-margin-left: auto;
-margin-right: auto; */
+  margin-left: 30px;
+  width: 1000px;
 }
+
 
 footer {
   padding: 25px 0;

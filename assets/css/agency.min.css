@@ -234,7 +234,7 @@ img::-moz-selection {
   -moz-transition: all ease .5s;
   transition: all ease .5s;
   opacity: 0;
-  background: rgba(254, 209, 54, .9)
+  background: rgba(255, 102, 102, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -280,6 +280,10 @@ img::-moz-selection {
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
+.projectpic {
+  width: 80%;
+}
+
 #portfolio * {
   z-index: 2
 }
@@ -295,13 +299,12 @@ img::-moz-selection {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw
+  margin: 0 auto;
+  max-width: 60vw;
 }
 
 .portfolio-modal .modal-content {
-  padding: 100px 0;
-  text-align: center
+  padding: 50px 0;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -655,6 +658,7 @@ section#about {
 
 .skillicon {
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 .skilli {

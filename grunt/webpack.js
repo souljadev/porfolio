@@ -8,7 +8,7 @@ module.exports = {
     entry: {
       application: './index.js',
       specs: './spec/_all.js',
-      vendor: ['jquery', 'bootstrap-sass']
+      vendor: ['jquery', 'bootstrap']
     },
 
     output: {

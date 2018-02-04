@@ -375,6 +375,28 @@ img::-moz-selection {
   background-color: #212529
 }
 
+.profile-a {
+  background: linear-gradient(to top right, #003366 0%, #000000 91%);
+}
+
+.profile-pct {
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.socialmediaz img {
+  height: 50px;
+}
+
+.socialmediaz {
+  color: white;
+}
+
+.contact-me {
+  padding-top: 50px;
+  margin-top: 45px;
+}
+
 .timeline {
   position: relative;
   padding: 0;

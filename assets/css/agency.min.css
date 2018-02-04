@@ -49,6 +49,10 @@ section h3.section-subheading {
   }
 }
 
+.bg-contact {
+  background-color: #ffffff !important;
+  background: url('https://i.imgur.com/c6i2vXL.jpg') no-repeat fixed center;
+}
 .btn {
   font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700
@@ -556,24 +560,22 @@ img::-moz-selection {
   }
 }
 
-.team-member {
+.current-project {
   margin-bottom: 50px;
   text-align: center
 }
 
-.team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid #fff
+.current-project img {
+  height: 100px;
 }
 
-.team-member h4 {
+.current-project h4 {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none
 }
 
-.team-member p {
+.current-project p {
   margin-top: 0
 }
 
@@ -585,6 +587,10 @@ section#contact {
 }
 
 section#contact .section-heading {
+  color: #fff
+}
+
+section#portfolio .section-heading {
   color: #fff
 }
 
@@ -636,8 +642,18 @@ section#contact :-ms-input-placeholder {
 section#about {
   clear: both;
   margin-top: 400px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding-top: 50px;
+}
+
+section#portfolio {
+  clear: both;
+  padding-top: 60px;
+  margin-top: 10px;
+}
+
+.porttitle {
+  font: white;
 }
 
 .biosum {
